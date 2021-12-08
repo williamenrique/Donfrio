@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+$primary-color: #0C8BCE;
+$secundary: #F9580E;
+$white: #fff;
+$black: #000;
+
+.site-header{
+    border: 1px solid;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    .navegacion{
+        display: flex;
+        justify-content: space-between;
+        h1{
+            font-size: 1.8rem;
+            line-height: 28px;
+            padding-left: 5px;
+        }
+        .link-menu{
+            display: flex;
+            align-items: center;
+            a{
+                text-decoration: none;
+                display: block;
+                font-size: 1.1rem;
+                color: var(--negro);
+                padding: 0 1rem;
+                border: 1px solid red;
+                text-transform: uppercase;
+                
+            }
+        }
+    }
+}
